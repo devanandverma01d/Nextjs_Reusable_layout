@@ -16,15 +16,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Header />
-      <main>
-        <div className="row">
-          <LeftAside />
-          {children}
-          <RightAside />
-        </div>
-      </main>
-      <Footer />
+        <Header />
+        <main>
+          <div className="row">
+            <LeftAside />
+              {children}
+            <RightAside />
+          </div>
+        </main>
+        <Footer />
       </body>
     </html>
   )
